@@ -35,6 +35,9 @@ See Release
   - View the original, full-object ("fullbody"), and individual part images.
   - Navigate through parts and preview them interactively.
   - Click **"Send to Main App"** to use a selected part in the main 3D generator.
+ 
+  - ![image](https://github.com/user-attachments/assets/b4469528-5681-4693-bb3b-b85f12816653)
+
 
 ### 3. Retexturing a Mesh
 - Load an existing 3D model.
