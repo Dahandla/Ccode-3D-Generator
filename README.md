@@ -29,7 +29,7 @@ See Release
 - Load an input image and (optionally) set the output directory.
 - Adjust segmentation parameters or use the LLM filter for meaningful parts.
 - Click **"Start Automatic Segmentation"** to generate parts:
-  - View the original, full-object ("fullboy"), and individual part images.
+  - View the original, full-object ("fullbody"), and individual part images.
   - Navigate through parts and preview them interactively.
   - Click **"Send to Main App"** to use a selected part in the main 3D generator.
 
