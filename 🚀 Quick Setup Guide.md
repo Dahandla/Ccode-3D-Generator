@@ -1,6 +1,12 @@
 🚀 Quick Setup Guide
 
+ Installation
+- See Release
++Please install PyTorch via the [official site](https://pytorch.org/). Then install the other requirements as described below:
 
+> **Note:** For the most up-to-date and detailed setup instructions, including any additional dependencies or troubleshooting tips, please visit the [official Hunyuan3D 2.0 page](https://3d.hunyuan.tencent.com) or the [official GitHub repository](https://github.com/Tencent/Hunyuan3D-2).
+>
+> 
 pip install -r requirements.txt
 
 pip install -e .
