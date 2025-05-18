@@ -119,7 +119,7 @@ For full details, see the [LICENSE](LICENSE.txt) and [NOTICE](NOTICE.txt) files.
  Donations
 If you find this project useful and would like to support further development, you can donate via:
 - GitHub: [github.com/dahandla](https://github.com/dahandla)
-- YouTube: [youtube.com/@Dahandla](https://www.youtube.com/@Dahandla)
+- YouTube: [youtube.com/@Dahandla]([https://www.youtube.com/@Dahandla](https://www.youtube.com/playlist?list=PLNkqxVhFvsiSt2CzL7IlamfeKZmKX53FK)
 - Donations: [PayPal](https://www.paypal.com/paypalme/AndreDickinson?locale=en_US)
 
 Your contributions help keep this project alive! ❤️
