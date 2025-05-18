@@ -138,7 +138,7 @@ Your contributions help keep this project alive! ❤️
 
 ### How Ollama is Used
 - **Image Description Generation:** When the "Use Image Description" option is enabled in the app, Ollama is used to generate a human-readable description of the input image. This description is then automatically populated into the text prompt field, making it easier to generate 3D models from images.
-- **How it works in the script:** The script (see `Ccode3DGen_Hun.pyx`) uses the `ollama` Python package to send the image to a local Ollama server, which returns a description using a vision-capable LLM (e.g., `moondream` or `llava-llama3`).
+- **How it works in the script:** The script uses the `ollama` Python package to send the image to a local Ollama server, which returns a description using a vision-capable LLM (e.g., `moondream` or `llava-llama3`).
 
 ### How to Set Up Ollama
 1. **Download and Install Ollama:**  
