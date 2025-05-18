@@ -23,23 +23,6 @@ Ccode 3D Generator is a powerful suite for generating, segmenting, and texturing
  Installation
 - See Release
 +Please install PyTorch via the [official site](https://pytorch.org/). Then install the other requirements as described below:
-+
-
-pip install -r requirements.txt
-
-pip install -e .
-
-for texture
-cd hy3dgen/texgen/custom_rasterizer
-
-python3 setup.py install
-
-cd ../../..
-
-cd hy3dgen/texgen/differentiable_renderer
-
-python3 setup.py install
-
 
 > **Note:** For the most up-to-date and detailed setup instructions, including any additional dependencies or troubleshooting tips, please visit the [official Hunyuan3D 2.0 page](https://3d.hunyuan.tencent.com) or the [official GitHub repository](https://github.com/Tencent/Hunyuan3D-2).
 
