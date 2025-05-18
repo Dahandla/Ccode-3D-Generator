@@ -29,7 +29,7 @@ See Release
 - Click **"Generate Shape"** for a 3D model or **"Generate Shape and Texture"** to apply a texture.
 
  2. Segmenting an Image into Parts (NEW)
-- Click **"Start SAM Segmenter"** in the main app or run `sam_segmenter_gui_v6.py` directly.
+- Click **"Start SAM Segmenter"** in the main app directly.
 - Load an input image and (optionally) set the output directory.
 - Adjust segmentation parameters or use the LLM filter for meaningful parts.
 - Click **"Start Automatic Segmentation"** to generate parts:
