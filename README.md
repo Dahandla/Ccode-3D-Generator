@@ -7,6 +7,7 @@ Ccode 3D Generator is a powerful suite for generating, segmenting, and texturing
 
 ![image](https://github.com/user-attachments/assets/c4d7a5ee-3486-4df5-b8a5-efbcf4fb8850)
 
+ Ccode 3D Generator v1.4 -
  Features
 - **3D Model Generation**: Convert images or text prompts into 3D models.
 - **Image Part Segmentation (NEW)**: Use the integrated SAM-based segmenter to extract meaningful object parts from images, with options for LLM-guided filtering and part selection.
@@ -20,7 +21,27 @@ Ccode 3D Generator is a powerful suite for generating, segmenting, and texturing
 - **Unified Theme Selector**: Choose between Light, Dark, and Blue themes across all GUIs.
 
  Installation
-See Release
+- See Release
++Please install PyTorch via the [official site](https://pytorch.org/). Then install the other requirements as described below:
++
+
+pip install -r requirements.txt
+
+pip install -e .
+
+for texture
+cd hy3dgen/texgen/custom_rasterizer
+
+python3 setup.py install
+
+cd ../../..
+
+cd hy3dgen/texgen/differentiable_renderer
+
+python3 setup.py install
+
+
+> **Note:** For the most up-to-date and detailed setup instructions, including any additional dependencies or troubleshooting tips, please visit the [official Hunyuan3D 2.0 page](https://3d.hunyuan.tencent.com) or the [official GitHub repository](https://github.com/Tencent/Hunyuan3D-2).
 
  How to Use
  1. Generating a 3D Model
@@ -148,6 +169,8 @@ For more information about Ollama, visit [https://ollama.com/](https://ollama.co
 **Date:** 2025-01-30  
 
 🚀 *Happy Texturing and Segmenting!*
+
+
 
 
 
