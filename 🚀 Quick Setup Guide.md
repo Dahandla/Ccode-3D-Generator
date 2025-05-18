@@ -8,7 +8,8 @@ If you don’t already have Conda, download and install Miniconda or Anaconda fo
 
 
 Run
-git clone https://github.com/Dahandla/yourproject.git
+https://github.com/Dahandla/Ccode-3D-Generator.git
+
 
 cd yourproject
 
