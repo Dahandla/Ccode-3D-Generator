@@ -1,5 +1,23 @@
 🚀 Quick Setup Guide
 
+
+pip install -r requirements.txt
+
+pip install -e .
+
+for texture
+cd hy3dgen/texgen/custom_rasterizer
+
+python3 setup.py install
+
+cd ../../..
+
+cd hy3dgen/texgen/differentiable_renderer
+
+python3 setup.py install
+
+
+
 1. Install Miniconda or Anaconda
 
 If you don’t already have Conda, download and install Miniconda or Anaconda for your operating system.
