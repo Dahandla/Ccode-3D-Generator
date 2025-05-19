@@ -11,9 +11,9 @@ def get_arg(index, default=None):
 image_path = get_arg(1)
 device = get_arg(2, "cpu")  # default to cpu
 
-print(f"[run_sam.py] Using device: {device}")
+print(f"[run_sam] Using device: {device}")
 if image_path:
-    print(f"[run_sam.py] Received image_path: {image_path}")
+    print(f"[run_sam] Received image_path: {image_path}")
 
 if hasattr(sam_segmenter_gui_v6, 'main'):
     try:
