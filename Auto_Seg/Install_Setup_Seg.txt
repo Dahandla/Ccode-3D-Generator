@@ -1,0 +1,19 @@
+conda create -n Ccode3DGen_Hun python=3.10
+
+
+# To activate this environment, use
+#
+#     $ conda activate Ccode3DGen_Hun
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+pip -r install requirements_v4.txt
+
+
+pip uninstall torch torchvision torchaudio -y
+
+pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121
+pip install xformers==0.0.27.post2
+python.exe -m pip install --upgrade pip
