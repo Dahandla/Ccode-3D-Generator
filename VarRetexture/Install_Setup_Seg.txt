@@ -15,5 +15,9 @@ pip -r install requirements_v4.txt
 pip uninstall torch torchvision torchaudio -y
 
 pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121
+pip install pytorch 
+
 pip install xformers==0.0.27.post2
+pip install xformers
+
 python.exe -m pip install --upgrade pip
