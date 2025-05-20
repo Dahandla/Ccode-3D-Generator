@@ -32,23 +32,33 @@ If you don’t already have Conda, download and install Miniconda or Anaconda fo
 
 
 Run
-https://github.com/Dahandla/Ccode-3D-Generator.git
-
+git clone https://github.com/Dahandla/yourproject.git
 
 cd yourproject
 
 3. Create the Conda Environment
 
 Run
-conda env create -f environment.yml
+conda create -n Ccode3DGen_
+
+
+4. Activate the Environment
+Run
+conda activate Ccode3DGen_
+
+
+pip install -r requirements_v4.txt
+
 
 This will create a new environment (e.g., Ccode3DGen_) with all required dependencies.
 
-4. Activate the Environment
+pip uninstall torch torchvision torchaudio -y
+pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
 
 
-Run
-conda activate Ccode3DGen_
+Reinstall segment_anything
+
+pip install --force-reinstall git+https://github.com/facebookresearch/segment-anything.git
 
 5. Run the Application
 
