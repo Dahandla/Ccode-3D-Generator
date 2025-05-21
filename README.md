@@ -18,7 +18,7 @@ Ccode 3D Generator is a powerful suite for generating, segmenting, and texturing
 - **Customizable Parameters**: Adjust inference steps, octree resolution, guidance scale, and seed values.
 - **Mesh Import & Export**: Load OBJ/GLB files, apply textures, and export in various formats.
 - **Automated Caching & File Management**: Organizes generated models and textures.
-- **Unified Theme Selector**: Choose between Light, Dark, and Blue themes across all GUIs.
+
 
  Installation
 - See Release
