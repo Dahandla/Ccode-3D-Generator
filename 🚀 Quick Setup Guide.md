@@ -1,6 +1,8 @@
 🚀 Quick Setup Guide
 
-![image](https://github.com/user-attachments/assets/c4d7a5ee-3486-4df5-b8a5-efbcf4fb8850)
+
+![image](https://github.com/Dahandla/Ccode-3D-Generator/blob/23849830b42db8ea3b9d9f046362c199dab8ddc9/resources/Ccode3DGenHalfScreen.png)
+
 
  Installation
 - See Release
