@@ -14,7 +14,9 @@ If you don’t already have Conda, download and install Miniconda or Anaconda fo
 
 
 Run
+
 https://github.com/Dahandla/Ccode-3D-Generator.git
+
 cd yourproject
 
 3. Create the Conda Environment
