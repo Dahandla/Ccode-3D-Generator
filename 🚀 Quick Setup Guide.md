@@ -1,5 +1,7 @@
 🚀 Quick Setup Guide
 
+![image](https://github.com/user-attachments/assets/c4d7a5ee-3486-4df5-b8a5-efbcf4fb8850)
+
  Installation
 - See Release
 +Please install PyTorch via the [official site](https://pytorch.org/). Then install the other requirements as described below:
