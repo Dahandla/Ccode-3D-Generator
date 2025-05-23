@@ -46,23 +46,26 @@ pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https
 pip uninstall xformers
 pip3 install -U xformers --index-url https://download.pytorch.org/whl/cu124
 
-
-pip uninstall segment-anything -y
-
-pip install --no-cache-dir --force-reinstall segment-anything
-pip install segment-anything
+pip install --upgrade numpy==1.24.4
 
 Reinstall segment_anything
+
+pip uninstall segment-anything -y
+pip install git+https://github.com/facebookresearch/segment-anything.git
+
+
 
 pip install --force-reinstall git+https://github.com/facebookresearch/segment-anything.git
 
 
 python.exe -m pip install --upgrade pip
 
-# for texture
+- for texture
 cd hy3dgen/texgen/custom_rasterizer
 python setup.py install
-pip install .
+
+###############
+pip install.
 
 cd ../../..
 
@@ -70,12 +73,10 @@ cd hy3dgen/texgen/differentiable_renderer
 python setup.py install
 
 
-
-
 5. Run the Application
 
 Run
-python Ccode_3D.bat
+python run_app.py
 
 
 6. Troubleshooting
@@ -91,4 +92,3 @@ Run
   conda install pyside6
 That’s it! You’re ready to use the project.
 If you have any issues, please check the README or open an issue on GitHub.
-
