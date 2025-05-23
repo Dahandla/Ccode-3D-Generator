@@ -48,38 +48,49 @@ pip3 install -U xformers --index-url https://download.pytorch.org/whl/cu124
 
 pip install --upgrade numpy==1.24.4
 
+
 Reinstall segment_anything
 
+
 pip uninstall segment-anything -y
+
 pip install git+https://github.com/facebookresearch/segment-anything.git
+
 
 
 
 pip install --force-reinstall git+https://github.com/facebookresearch/segment-anything.git
 
 
+
 python.exe -m pip install --upgrade pip
 
+
 - for texture
+- 
 cd hy3dgen/texgen/custom_rasterizer
 python setup.py install
 
+
 ###############
+
 pip install.
+
 
 cd ../../..
 
+
 cd hy3dgen/texgen/differentiable_renderer
+
 python setup.py install
 
-
 5. Run the Application
-
+   
 Run
 python run_app.py
 
 
-6. Troubleshooting
+7. Troubleshooting
 If you encounter missing packages, try updating Conda:
 
 
