@@ -21,6 +21,7 @@ Ccode 3D Generator is a powerful suite for generating, segmenting, and texturing
 
 
  Installation
+ has nothing to do with Gradio and Comfy UI
 - See Release
 +Please install PyTorch via the [official site](https://pytorch.org/). Then install the other requirements as described below:
 
