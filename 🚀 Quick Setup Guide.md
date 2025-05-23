@@ -89,16 +89,18 @@ python run_app.py
 ### Common Issues
 
 1. **Missing Packages**
+
+2. You should be able to ignore the 'triton' error safely. Do not try to install it, I think it is just for Linux, not Windows, and if there is a Windows version, it would cause an issue with the code.
    ```bash
    conda update -n base -c defaults conda
    ```
 
-2. **PySide/DLL Issues**
+3. **PySide/DLL Issues**
    ```bash
    conda install pyside6
    ```
 
-3. **CUDA Compatibility**
+4. **CUDA Compatibility**
    - Ensure your NVIDIA drivers are up to date
    - Verify CUDA compatibility with your GPU
 
