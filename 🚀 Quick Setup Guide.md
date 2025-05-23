@@ -16,6 +16,13 @@
 - Git
 - Miniconda or Anaconda
 
+- 
+## ⚠️ Important Note About Model Files
+On first run, the application will automatically download the required model files. This process:
+- May take 15-30 minutes, depending on your internet connection
+- Downloads will be cached locally for future use
+- Ensure you have enough space on your hard drive and  a stable internet connection for the initial setup
+
 ## Installation Steps
 
 ### 1. Clone the Repository
