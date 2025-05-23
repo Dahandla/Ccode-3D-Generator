@@ -1,0 +1,9 @@
+https://github.com/Tencent-Hunyuan/Hunyuan3D-2
+
+
+
+https://github.com/Tencent-Hunyuan/Hunyuan3D-2/tree/main/hy3dgen
+
+Download this folder and place it in the project directory 
+
+hy3dgen
