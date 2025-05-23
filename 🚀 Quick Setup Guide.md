@@ -69,6 +69,7 @@ python.exe -m pip install --upgrade pip
 - for texture
 - 
 cd hy3dgen/texgen/custom_rasterizer
+
 python setup.py install
 
 
@@ -81,6 +82,7 @@ cd ../../..
 
 
 cd hy3dgen/texgen/differentiable_renderer
+
 
 python setup.py install
 
