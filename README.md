@@ -5,7 +5,8 @@
  Overview
 Ccode 3D Generator is a powerful suite for generating, segmenting, and texturing 3D models from images, text prompts, and thumbnails. The latest version introduces an advanced image segmenter for extracting object parts, enabling part-based shape creation and seamless integration with the main 3D generation workflow.
 
-![image](https://github.com/user-attachments/assets/c4d7a5ee-3486-4df5-b8a5-efbcf4fb8850)
+![image](https://github.com/Dahandla/Ccode-3D-Generator/blob/91f167015bf95ba6800e6672ae603b177e1028da/screenshot6.png)
+
 
  Ccode 3D Generator v1.4 -
  Features
